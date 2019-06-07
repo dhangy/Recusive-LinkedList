@@ -1,0 +1,4 @@
+﻿  LinkedList.cpp
+LinkedList.obj : error LNK2019: unresolved external symbol "public: __thiscall Node::Node(int)" (??0Node@@QAE@H@Z) referenced in function "private: struct Node * __thiscall LinkedList::InsertHelper(struct Node *,int)" (?InsertHelper@LinkedList@@AAEPAUNode@@PAU2@H@Z)
+LinkedList.obj : error LNK2019: unresolved external symbol "public: __thiscall Node::~Node(void)" (??1Node@@QAE@XZ) referenced in function "public: void * __thiscall Node::`scalar deleting destructor'(unsigned int)" (??_GNode@@QAEPAXI@Z)
+c:\users\dhangiskhan\documents\visual studio 2017\Projects\LinkedListRecursion\Debug\LinkedListRecursion.exe : fatal error LNK1120: 2 unresolved externals
